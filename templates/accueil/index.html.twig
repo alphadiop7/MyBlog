@@ -3,6 +3,40 @@
 {% block title %} {{ title }} {% endblock %}
 
 {% block body %}
-<div class="container-fluid">
+<div class="container-fluid mt-2">
+    <div class="card">
+        <div class="card-header">List de Blog</div>
+        <div class="card-body">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <a class="col" href="">
+                    <div class="card h-100">
+                        <img src="{{ asset('images/profil.jpg') }}" class="card-img-top h-50" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="col" href="">
+                    <div class="card h-100">
+                        <img src="{{ asset('images/profil2.jpg') }}" class="card-img-top h-50" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="col" href="">
+                    <div class="card h-100">
+                        <img src="{{ asset('images/profil.jpg') }}" class="card-img-top h-50" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
 </div>
 {% endblock %}
